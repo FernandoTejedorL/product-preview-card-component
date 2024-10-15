@@ -25,5 +25,140 @@ ul {
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f2eae2;
+}
+
+@media screen and (width>768px) {
+  .content {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.card {
+  height: 611px;
+  width: 343px;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 16px;
+  margin-top: 28px;
+  overflow: hidden;
+}
+
+@media screen and (width>768px) {
+  .card {
+    display: flex;
+    height: 450px;
+    width: 600px;
+    margin-top: 175px;
+  }
+}
+
+.textbox {
+  margin: 24px;
+}
+
+@media screen and (width>768px) {
+  .textbox {
+    height: 450px;
+    width: 500px;
+  }
+}
+
+.perfum {
+  font-size: 12px;
+  font-weight: 500;
+  color: #6c7289;
+  letter-spacing: 5px;
+  margin: 0 0 12px 0;
+}
+
+@media screen and (width>768px) {
+  .perfum {
+    margin-bottom: 34px 0 20px 0;
+  }
+}
+
+.product {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: #1c232b;
+  margin: 0 0 16px 0;
+}
+
+@media screen and (width>768px) {
+  .product {
+    margin-bottom: 24px;
+    width: 237px;
+  }
+}
+
+.description {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+  color: #6c7289;
+  margin: 0 0 24px 0;
+}
+
+@media screen and (width>768px) {
+  .description {
+    margin-bottom: 29px;
+
+    width: 237px;
+  }
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  margin: 0 0 20px 0;
+}
+
+@media screen and (width>768px) {
+  .prices {
+    margin-bottom: 30px;
+  }
+}
+
+.offer {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: #3d8168;
+  margin: 0;
+}
+
+.old {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 23px;
+  color: #6c7289;
+  margin: 0;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+  color: white;
+  background-color: #3d8168;
+  border-radius: 8px;
+}
+
+@media screen and (width>768px) {
+  .button:hover {
+    background-color: #1a4032;
+  }
+}
+
+.but-txt {
+  font-size: 14px;
+  font-weight: 700;
 }
